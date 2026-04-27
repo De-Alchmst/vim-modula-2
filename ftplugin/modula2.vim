@@ -66,79 +66,81 @@ endfunction
 
 " --- abbreviations ------------------------------------------------------------
 
-iabbr <buffer> not NOT
-iabbr <buffer> or OR
-iabbr <buffer> and AND
-iabbr <buffer> in IN
-iabbr <buffer> div DIV
-iabbr <buffer> mod MOD
-iabbr <buffer> implementation IMPLEMENTATION
-iabbr <buffer> definition DEFINITION
-iabbr <buffer> module MODULE
-iabbr <buffer> end END
-iabbr <buffer> procedure PROCEDURE
-iabbr <buffer> nil NIL
-iabbr <buffer> false FALSE
-iabbr <buffer> true TRUE
-
-iabbr <buffer> of OF
-iabbr <buffer> to TO
-iabbr <buffer> with WITH
-iabbr <buffer> while WHILE
-iabbr <buffer> var VAR
-iabbr <buffer> until UNTIL
-iabbr <buffer> type TYPE
-iabbr <buffer> then THEN
-iabbr <buffer> set SET
-iabbr <buffer> return RETURN
-iabbr <buffer> repeat REPEAT
-iabbr <buffer> record RECORD
-iabbr <buffer> qualified QUALIFIED
-iabbr <buffer> procedure PROCEDURE
-iabbr <buffer> module MODULE
-iabbr <buffer> loop LOOP
-iabbr <buffer> import IMPORT
-iabbr <buffer> implementation IMPLEMENTATION
-iabbr <buffer> if IF
-iabbr <buffer> from FROM
-iabbr <buffer> for FOR
-iabbr <buffer> export EXPORT
-iabbr <buffer> exit EXIT
-iabbr <buffer> end END
-iabbr <buffer> elsif ELSIF
-iabbr <buffer> else ELSE
-iabbr <buffer> do DO
-iabbr <buffer> definition DEFINITION
-iabbr <buffer> const CONST
-iabbr <buffer> case CASE
-iabbr <buffer> by BY
-iabbr <buffer> begin BEGIN
-
-iabbr <buffer> array ARRAY
-iabbr <buffer> pointer POINTER
-
-iabbr <buffer> coff_t COFF_T
-iabbr <buffer> cssize_t CSSIZE_T
-iabbr <buffer> csize_t CSIZE_T
-iabbr <buffer> address ADDRESS
-iabbr <buffer> word WORD
-iabbr <buffer> byte BYTE
-iabbr <buffer> loc LOC
-iabbr <buffer> locsperword LOCSPERWORD
-iabbr <buffer> bitsperloc BITSPERLOC
-
-iabbr <buffer> proc PROC
-iabbr <buffer> longcomplex LONGCOMPLEX
-iabbr <buffer> complex COMPLEX
-iabbr <buffer> shortcomplex SHORTCOMPLEX
-iabbr <buffer> char CHAR
-iabbr <buffer> shortreal SHORTREAL
-iabbr <buffer> longreal LONGREAL
-iabbr <buffer> real REAL
-iabbr <buffer> boolean BOOLEAN
-iabbr <buffer> shortcard SHORTCARD
-iabbr <buffer> longcard LONGCARD
-iabbr <buffer> cardinal CARDINAL
-iabbr <buffer> shortint SHORTINT
-iabbr <buffer> longint LONGINT
-iabbr <buffer> integer INTEGER
+if exists("g:modula2_abbr")
+  iabbr <buffer> not NOT
+  iabbr <buffer> or OR
+  iabbr <buffer> and AND
+  iabbr <buffer> in IN
+  iabbr <buffer> div DIV
+  iabbr <buffer> mod MOD
+  iabbr <buffer> implementation IMPLEMENTATION
+  iabbr <buffer> definition DEFINITION
+  iabbr <buffer> module MODULE
+  iabbr <buffer> end END
+  iabbr <buffer> procedure PROCEDURE
+  iabbr <buffer> nil NIL
+  iabbr <buffer> false FALSE
+  iabbr <buffer> true TRUE
+  
+  iabbr <buffer> of OF
+  iabbr <buffer> to TO
+  iabbr <buffer> with WITH
+  iabbr <buffer> while WHILE
+  iabbr <buffer> var VAR
+  iabbr <buffer> until UNTIL
+  iabbr <buffer> type TYPE
+  iabbr <buffer> then THEN
+  iabbr <buffer> set SET
+  iabbr <buffer> return RETURN
+  iabbr <buffer> repeat REPEAT
+  iabbr <buffer> record RECORD
+  iabbr <buffer> qualified QUALIFIED
+  iabbr <buffer> procedure PROCEDURE
+  iabbr <buffer> module MODULE
+  iabbr <buffer> loop LOOP
+  iabbr <buffer> import IMPORT
+  iabbr <buffer> implementation IMPLEMENTATION
+  iabbr <buffer> if IF
+  iabbr <buffer> from FROM
+  iabbr <buffer> for FOR
+  iabbr <buffer> export EXPORT
+  iabbr <buffer> exit EXIT
+  iabbr <buffer> end END
+  iabbr <buffer> elsif ELSIF
+  iabbr <buffer> else ELSE
+  iabbr <buffer> do DO
+  iabbr <buffer> definition DEFINITION
+  iabbr <buffer> const CONST
+  iabbr <buffer> case CASE
+  iabbr <buffer> by BY
+  iabbr <buffer> begin BEGIN
+  
+  iabbr <buffer> array ARRAY
+  iabbr <buffer> pointer POINTER
+  
+  iabbr <buffer> coff_t COFF_T
+  iabbr <buffer> cssize_t CSSIZE_T
+  iabbr <buffer> csize_t CSIZE_T
+  iabbr <buffer> address ADDRESS
+  iabbr <buffer> word WORD
+  iabbr <buffer> byte BYTE
+  iabbr <buffer> loc LOC
+  iabbr <buffer> locsperword LOCSPERWORD
+  iabbr <buffer> bitsperloc BITSPERLOC
+  
+  iabbr <buffer> proc PROC
+  iabbr <buffer> longcomplex LONGCOMPLEX
+  iabbr <buffer> complex COMPLEX
+  iabbr <buffer> shortcomplex SHORTCOMPLEX
+  iabbr <buffer> char CHAR
+  iabbr <buffer> shortreal SHORTREAL
+  iabbr <buffer> longreal LONGREAL
+  iabbr <buffer> real REAL
+  iabbr <buffer> boolean BOOLEAN
+  iabbr <buffer> shortcard SHORTCARD
+  iabbr <buffer> longcard LONGCARD
+  iabbr <buffer> cardinal CARDINAL
+  iabbr <buffer> shortint SHORTINT
+  iabbr <buffer> longint LONGINT
+  iabbr <buffer> integer INTEGER
+endif
