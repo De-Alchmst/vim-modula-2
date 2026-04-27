@@ -43,7 +43,7 @@ function! Modula2Indent(lnum)
   " We match them as whole words at the *end* of the logical line (ignoring
   " trailing comments is hard in pure VimScript, so we match anywhere on
   " the trimmed line — good enough for well-formatted code).
-  if prev_line =~# '\<\(TYPE\|VAR\|BEGIN\|THEN\|ELSE\|ELSIF\|DO\|OF\|REPEAT\|LOOP\|RECORD\|WITH\)\>'
+  if prev_line =~# '\<\(TYPE\|VAR\|CONST\|BEGIN\|THEN\|ELSE\|ELSIF\|DO\|OF\|REPEAT\|LOOP\|RECORD\|WITH\)\>'
     let indent += sw
   endif
   " PROCEDURE / MODULE header line — the body follows after BEGIN, but the
