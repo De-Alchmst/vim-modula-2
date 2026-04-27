@@ -25,6 +25,7 @@ highlight default link m2String String
 syntax match   m2Number   '\<\d\+\(\.\d\+\([Ee][+-]\?\d\+\)\?\)\?\>'
 syntax match   m2Number   '\<[0-9A-F]\+H\>' " hex   (0FFH)
 syntax match   m2Number   '\<[0-7]\+B\>'    " octal (0777B)
+syntax match   m2Number   '\<[0-9]\+C\>'    " character (0C)
 highlight default link m2Number Number
  
 " -- Built-in types ------------------------------------------------------------
@@ -40,13 +41,14 @@ syntax match   m2Type 'ARRAY\s\+\['
 syntax match   m2Type '\]\s\+OF'
 syntax match   m2Type 'ARRAY\s\+OF'
 syntax match   m2Type 'POINTER\s\+TO'
+syntax match   m2Type 'SET\s\+OF'
 highlight default link m2Type Type
  
 " -- Reserved keywords ---------------------------------------------------------
 syntax keyword m2Keyword
   \ BEGIN BY CASE CONST DEFINITION DO ELSE ELSIF END EXIT
   \ EXPORT FOR FROM IF IMPLEMENTATION IMPORT LOOP MODULE
-  \ PROCEDURE QUALIFIED RECORD REPEAT RETURN SET THEN TYPE UNTIL
+  \ PROCEDURE QUALIFIED RECORD REPEAT RETURN THEN TYPE UNTIL
   \ VAR WHILE WITH TO OF
 highlight default link m2Keyword Keyword
  
