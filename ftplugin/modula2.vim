@@ -68,9 +68,7 @@ endfunction
 
 if exists("g:modula2_abbr")
   " trigger abbrevations on newline.
-  " must be via <expr> will cause infinite recursion otherwise (even with noremap
-  inore <buffer> <expr> <CR> "<C-]><CR>"
-
+  inore <buffer> <CR> <C-]><CR>
   iabbr <buffer> not NOT
   iabbr <buffer> or OR
   iabbr <buffer> and AND
